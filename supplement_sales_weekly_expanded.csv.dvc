@@ -1,0 +1,12 @@
+md5: 3357108d8b1bac91008ebf9764c809c7
+frozen: true
+deps:
+- db:
+    connection: pgsql
+    file_format: csv
+    table: supplement_sales_weekly_expanded
+outs:
+- md5: 1bc381377022918b111d4637d3540650
+  size: 301594
+  hash: md5
+  path: supplement_sales_weekly_expanded.csv

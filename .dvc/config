@@ -1,0 +1,9 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://dvctracking
+    endpointurl = http://localhost:10000
+    access_key_id = JGYw9puSCPPyQHCrFn1A
+    secret_access_key = Hvl58UFimkcfWf9Wb35VwAQJ0rEAzaKhy6tX9ZXO
+['db "pgsql"']
+    url = postgresql://postgres@localhost:54321/db
